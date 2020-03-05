@@ -1,44 +1,168 @@
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>index</title>
+  <title>Sisun May</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-<style>
- /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 90%;
-  }
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-  }
-
-th, td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
-}
-
-tr:hover {background-color:#f5f5f5;}
-
-</style>
-
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
-<body>
-<div id="demo" class="carousel slide" data-ride="carousel">
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
+<style>
+.center {
+  text-align: center;
+}
+ul.a {
+  list-style-type: circle;
+}
+</style>
+<body  style="background-color:LightCyan ">
 
-  <h2 style="text-align:center; font-family:verdana;  font-size:300%;  color:MediumSeaGreen; "><b>MIS</h2></b>
-  <p style="text-align:center;  font-family:verdana;">Management Information System</p>
+<div class="jumbotron text-center" style="background-color:LightSkyBlue">
+   <h2 style="text-align:center; font-family:verdana; margin-top:10px; margin-bottom:15px;color:rgb(0, 0, 0); ">Siraprapa Sunthiwas</h2>
+  <p>Whatever it takes!!</p> 
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+    </div>
+   
+    <div class="col-sm-4">
+      <div class="center">
+  <img src="https://avatars1.githubusercontent.com/u/60122720?s=400&u=d9f09585bb33f62805991ed219cb44c285a67d34&v=4" width="300" height="300" alt="may">
+   <br><br>
+   <h2 style="text-align:center; font-family:verdana; margin-top:10px; margin-bottom:15px;color:hsl(0, 60%, 50%); ">My Profile</h2>
+    
+       
+  </div> 
+    </div>
+    
+    <div class="col-sm-4">
+    </div>
+    
+  </div>
+</div>
+<div class="container" style="margin-top:50px; margin-bottom:30px">
+  
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="card-link" data-toggle="collapse" href="#ประวัติสาขาวิชา">
+         Background
+        </a>
+      </div>
+      <div id="ประวัติสาขาวิชา" class="collapse show" data-parent="#accordion">
+        <div class="card-body">
+        <p style= "text-indent: 40px"><b>Name</b> : Siraprapa Sunthiwas 
+  		<p style= "text-indent: 40px"><b>Nickname</b> : May 
+        <p style= "text-indent: 40px"><b>Gender</b> : 
+        <p style= "text-indent: 40px"><b>Age</b> : 21 years old
+		<p style= "text-indent: 40px"><b>Date of birth</b> : 4  April 1998
+		<p style= "text-indent: 40px"><b>Height</b> : 168 cm. 
+        <p style= "text-indent: 40px"><b>Weight</b> : 47 kg. 
+
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#วัตถุประสงค์ของหลักสูตร">
+       Education
+      </a>
+      </div>
+      <div id="วัตถุประสงค์ของหลักสูตร" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+            <p style= "text-indent: 40px"><b>2017-Current </b> : Bachelor of Management 
+    Information Systems (MIS)
+			<p style= "text-indent: 153px"> Faculty of Commerce and
+ Accountancy, Thammasat University
+	<p style= "text-indent: 153px">GPAX: 3.17
+    
+  	 <p style= "text-indent: 40px"><b> 2014-2017  </b> &nbsp  &nbsp : Mathematics – English Program
+       <p style= "text-indent: 153px">Rittiyawannalai  School
+       <p style= "text-indent: 153px">GPAX: 3.97
+        </div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#คุณสมบัติของนักศึกษาที่เข้าเรียน">
+        Language
+        </a>
+      </div>
+      <div id="คุณสมบัติของนักศึกษาที่เข้าเรียน" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+        <ul class="a">
+  <li><b>Thai</b>  : fluent</li>
+  <li><b>English</b>  : intermediate</li>
+</ul>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#คุณสมบัติของนักศึกษาที่เข้าเรียน">
+        Skill
+        </a>
+      </div>
+      <div id="คุณสมบัติของนักศึกษาที่เข้าเรียน" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+        <ul class="a">
+  <li>Photoshop</li>
+  <li>Microsoft Office (Word, PP, Excel, Access )</li>
+    <li>Web Design (HTML)</li>
+      <li>Database</li>
+      <li>ERP (SAP)</li>
+      <li>Computer Network</li>
+       <li>Dancing</li>
+        <li>Drawing</li>    
+</ul>
+        </div>
+      </div>
+    </div>
+    
+     <div class="card">
+      <div class="card-header">
+        <a class="collapsed card-link" data-toggle="collapse" href="#การประกอบอาชีพหลังสำเร็จการศึกษา">
+     Experience and Activity
+        </a>
+      </div>
+      <div id="การประกอบอาชีพหลังสำเร็จการศึกษา" class="collapse" data-parent="#accordion">
+        <div class="card-body">
+        
+     <ul class="a">
+  <li>Member of MIS Camp</li>
+  <li>Volunteer in Kanchanaburi Camp</li>
+    <li>Member of Acbuff’s Corus Singing </li>
+      <li>Staff of Banchi Vchakarn 2019</li>
+      <li>Candidate of TBS Stock Master</li>
+      <li>Member of Bicycle Club</li>
+          
+</ul> 
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <center><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Contact Me</button></center>
+  <div id="demo" class="collapse"><br>
+   <p style= "text-indent: 330px"><b>Email</b> : Santhiwas85@gmail.com
+  	<p style= "text-indent: 370px"><b>Phone</b> : 062-641-2605 
+       <p style= "text-indent: 200px"><b>Address</b> : 192/66 Sunkhaphiban 5 Rd., Saimai, Bangkok 10220 Thailand 
+  </div>
+</div>
+<br><br><br><br><br>
+	
+
+
+</body>
+</html>
